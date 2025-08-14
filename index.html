@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Image Scope</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://kit.fontawesome.com/0ca27f8db1.js" crossorigin="anonymous"></script>
+  <script src="https://danielmorrisey.com/script/main.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="container">
+    <div class="image-wrapper">
+      <img id="scopeImage" alt="Microscope Image">
+      <div class="description" id="imageDescription"></div>
+    </div>
+
+    <div class="button-right">
+      <!-- Up -->
+      <button id="upBtn" title="Previous">
+        <i class="fas fa-chevron-up" style="color: #ffffff"></i>
+      </button>
+
+      <!-- Save -->
+      <button id="saveBtn" title="Save">
+        <i class="fas fa-heart" style="color: #ffffff"></i>
+      </button>
+
+      <!-- Share -->
+      <button id="shareBtn" title="Share">
+        <i class="fas fa-share-alt" style="color: #ffffff"></i>
+      </button>
+
+      <!-- Random -->
+      <button id="randomBtn" title="Random">
+        <i class="fas fa-random" style="color: #ffffff"></i>
+      </button>
+
+      <!-- Down -->
+      <button id="downBtn" title="Next">
+        <i class="fas fa-chevron-down" style="color: #ffffff"></i>
+      </button>
+    </div>
+
+    <div class="bottom-links">
+      <a href="saved.html">Saved Images</a> <p>&copy; 2024-<span id="currentYear"></span> <a href="/leaving.html?link=https://madebydanny.uk" class="text-blue-600 transition-colors hover:text-blue-800">Made by Danny UK</a> <i>by Daniel Morrisey</i></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

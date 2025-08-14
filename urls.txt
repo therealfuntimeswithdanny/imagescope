@@ -1,0 +1,11 @@
+// Simulated database
+const imageDB = [
+  { id: 101, url: "img/blue-coster.jpeg", description: "Blue Coster under a microscope" },
+  { id: 102, url: "img/carpet.jpeg", description: "Carpet under a microscope" },
+  { id: 103, url: "img/m4-mac-mini.jpeg", description: "M4 Mac Mini under a microscope" },
+  { id: 104, url: "img/magic-keyboard.jpeg", description: "Magic Keyboard under a microscope" },
+  { id: 105, url: "img/red-apple-logo.jpeg", description: "Red Apple Logo under a microscope" },
+  { id: 106, url: "img/table.jpeg", description: "Table under a microscopen" },
+  { id: 107, url: "img/wood-chair.jpeg", description: "Wood Chair under a microscope" }
+
+];

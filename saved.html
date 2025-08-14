@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Saved Images - Image Scope</title>
+  <link rel="stylesheet" href="saved.css">
+  <script src="https://kit.fontawesome.com/0ca27f8db1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header>
+    <h1><i class="fas fa-heart"></i> Saved Images</h1>
+    <a href="index.html" class="back-btn"><i class="fas fa-arrow-left"></i> Back</a>
+  </header>
+
+  <main id="savedGallery" class="gallery"></main>
+
+  <footer>
+    <button id="clearSaved"><i class="fas fa-trash"></i> Clear All</button>
+  </footer>
+
+  <script>
+    const gallery = document.getElementById("savedGallery");
+    const savedImages = JSON.parse(localStorage.getItem("savedImages") || "[]");
+
+    function renderGallery() {
+      gallery.innerHTML = "";
+      if (savedImages.length === 0) {
+        gallery.innerHTML = `<p class="empty">No saved images yet.</p>`;
+        return;
+      }
+      savedImages.forEach(img => {
+        const item = document.createElement("div");
+        item.className = "gallery-item";
+        item.innerHTML = `
+          <img src="${img.url}" alt="${img.description}">
+          <p>${img.description}</p>
+        `;
+        gallery.appendChild(item);
+      });
+    }
+
+    document.getElementById("clearSaved").addEventListener("click", () => {
+      if (confirm("Are you sure you want to clear all saved images?")) {
+        localStorage.removeItem("savedImages");
+        location.reload();
+      }
+    });
+
+    renderGallery();
+  </script>
+</body>
+</html>
