@@ -1,12 +1,17 @@
 // Simulated database
 const imageDB = [
-  { id: 101, url: "img/blue-coster.jpeg", description: "Blue Coster under a microscope" },
-  { id: 102, url: "img/carpet.jpeg", description: "Carpet under a microscope" },
-  { id: 103, url: "img/m4-mac-mini.jpeg", description: "M4 Mac Mini under a microscope" },
-  { id: 104, url: "img/magic-keyboard.jpeg", description:"Magic Keyboard under a microscope" },
-  { id: 105, url: "img/red-apple-logo.jpeg", description: "Red Apple Logo under a microscope" },
-  { id: 106, url: "img/table.jpeg", description: "Table under a microscopen" },
-  { id: 107, url: "img/wood-chair.jpeg", description: "Wood Chair under a microscope" }
+  { id: 101, url: "https://public-danielmorrisey-com.danielmorrisey.com/imagescope/img/blue-coster.jpeg", description: "Blue Coster under a microscope" },
+  { id: 102, url: "https://public-danielmorrisey-com.danielmorrisey.com/imagescope/img/carpet.jpeg", description: "Carpet under a microscope" },
+  { id: 103, url: "https://public-danielmorrisey-com.danielmorrisey.com/imagescope/img/m4-mac-mini.jpeg", description: "M4 Mac Mini under a microscope" },
+  { id: 104, url: "https://public-danielmorrisey-com.danielmorrisey.com/imagescope/img/magic-keyboard.jpeg", description:"Magic Keyboard under a microscope" },
+  { id: 105, url: "https://public-danielmorrisey-com.danielmorrisey.com/imagescope/img/red-apple-logo.jpeg", description: "Red Apple Logo under a microscope" },
+  { id: 106, url: "https://public-danielmorrisey-com.danielmorrisey.com/imagescope/img/table.jpeg", description: "Table under a microscopen" },
+  { id: 107, url: "https://public-danielmorrisey-com.danielmorrisey.com/imagescope/img/wood-chair.jpeg", description: "Wood Chair under a microscope" },
+  { id: 108, url: "https://public-danielmorrisey-com.danielmorrisey.com/imagescope/img/upload-2/IMG_2221.JPG", description: "a Rasbperry pi 4 under a microscope" },
+  { id: 109, url: "https://public-danielmorrisey-com.danielmorrisey.com/imagescope/img/upload-2/IMG_2220.JPG", description: "a Rasbperry pi 4 under a microscope, p2" },
+  { id: 110, url: "https://public-danielmorrisey-com.danielmorrisey.com/imagescope/img/upload-2/IMG_2219.JPG", description: "a Rasbperry pi 4 under a microscope, p3" },
+  { id: 111, url: "https://public-danielmorrisey-com.danielmorrisey.com/imagescope/img/upload-2/IMG_2218.JPG", description: "ALTECH Lansing Speeker under a microscope" },
+
 
 ];
 
